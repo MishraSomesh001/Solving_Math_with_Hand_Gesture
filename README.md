@@ -31,13 +31,13 @@ Install the required libraries using `pip`:
 
 ```bash
 pip install opencv-python cvzone numpy Pillow streamlit google-generativeai
-
+```
 ## Usage
 ### Running the Application
 To start the application, run the following command in your terminal:
 ```bash
 streamlit run your_script_name.py  # Replace with the actual script name
-
+```
 ### Interacting with the Application
 - **Run the App**: Check the "Run" box to start the webcam feed.
 - **Draw**: Use your index finger to draw on the canvas.
@@ -56,6 +56,7 @@ The project integrates with Google Generative AI to provide content based on the
 To use the AI functionality, set your Google Generative AI API key in the script:
 ```python
 genai.configure(api_key="YOUR_API_KEY")
+```
 
 ### Troubleshooting
 - **No Video Feed**: Ensure your webcam is properly connected and accessible.
