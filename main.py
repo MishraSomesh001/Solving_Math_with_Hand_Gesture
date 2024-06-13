@@ -61,8 +61,8 @@ def draw(info,prev_pos,canvas):
     elif fingers == [0, 1, 1, 0, 0]:
         current_pos = lmlist[8][0:2]
         if prev_pos is None: prev_pos = current_pos
-        cv2.circle(img, current_pos, 80, (0, 0, 0), -1)
-        cv2.circle(canvas, prev_pos, 80, erase_color, -1)
+        cv2.circle(img, current_pos, 60, (0, 0, 0), -1)
+        cv2.circle(canvas, prev_pos, 60, erase_color, -1)
 
     return current_pos,canvas
 
