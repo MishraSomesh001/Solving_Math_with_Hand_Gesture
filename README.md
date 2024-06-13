@@ -10,7 +10,7 @@ This project is a hand-gesture-based drawing and erasing application using OpenC
 - [AI Integration](#ai-integration)
 - [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Features
 - **Real-Time Drawing**: Draw on a virtual canvas using your index finger.
